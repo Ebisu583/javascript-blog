@@ -131,3 +131,30 @@ body {
     margin-right: 8px;
   }
 }
+.tag-size-1 {
+  font-size: 10px;
+  color: red;
+}
+.tag-size-2 {
+  font-size: 20px;
+  color: blue;
+}
+.tag-size-3 {
+  font-size: 30px;
+  color: green;
+}
+.tag-size-4 {
+  font-size: 35px;
+  color: brown;
+}
+.tag-size-5 {
+  font-size: 40px;
+  color: orange;
+}
+
+.list.tags li {
+  display: inline;
+}
+
+
+

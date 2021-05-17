@@ -28,7 +28,7 @@
               </ul>
             </aside>
             <section class="posts">
-              <article class="post active" id="article-1" data-tags="cat cactus scissors" data-author="Tom Hanks">
+              <article class="post active" id="article-1" data-tags="cat cactus scissors phone movie" data-author="Tom Hanks">
                 <h3 class="post-title">Article 1</h3>
                 <a href="#author" class="author-name">
                   <span >Tom Hanks</span>
@@ -48,7 +48,7 @@
                   </ul>
                 </div>
               </article>        
-              <article class="post" id="article-2" data-tags="cat cactus" data-author="Theo Tabby">
+              <article class="post" id="article-2" data-tags="cat cactus phone" data-author="Theo Tabby">
                 <h3 class="post-title">Article 2</h3>
                 <a href="#author" class="author-name">
                   <span>Yann Klein</span>
@@ -68,7 +68,7 @@
                   </ul>
                 </div>
               </article>        
-              <article class="post" id="article-3" data-author="Max Bek">
+              <article class="post" id="article-3" data-tags="cat cactus phone glass" data-author="Max Bek">
                 <h3 class="post-title">Article 3</h3>
                 <a href="#author" class="author-name">
                   <span>Max Bek</span>
@@ -88,7 +88,7 @@
                   </ul>
                 </div>
               </article>        
-              <article class="post" id="article-4">
+              <article class="post" id="article-4" data-tags="cat paper phone" data-author="Frank Book">
                 <h3 class="post-title">Article 4</h3>
                 <p class="post-author">by Kitty Toebean</p>
                 <div class="post-content">
@@ -107,7 +107,7 @@
                   </ul>
                 </div>
               </article>
-              <article class="post" id="article-5">
+              <article class="post" id="article-5" data-tags="cactus paper phone glass" data-author="Peter Moor">
                 <h3 class="post-title">Article 5</h3>
                 <p class="post-author">by Marion Berry</p>
                 <div class="post-content">
@@ -125,7 +125,7 @@
                   </ul>
                 </div>
               </article>        
-              <article class="post" id="article-6">
+              <article class="post" id="article-6" data-tags="cat glass phone big" data-author="Marcy May">
                 <h3 class="post-title">Article 6</h3>
                 <p class="post-author">by George Tuxedo</p>
                 <div class="post-content">
@@ -143,7 +143,7 @@
                   </ul>
                 </div>
               </article>
-              <article class="post" id="article-7">
+              <article class="post" id="article-7" data-tags="cactus paper glass" data-author="Mel Mag">
                 <h3 class="post-title">Article 7</h3>
                 <p class="post-author">by Kitty Toebean</p>
                 <div class="post-content">
@@ -266,7 +266,7 @@
       </script>
       <script id="template-tag-cloud-link" type="text/x-handlebars-template">
           {{#each tags}}
-          <li class={{className}}>{{ tag }} ({{count}})</li>
+          <li class={{className}}><a href="#tag-{{ tag }}">{{ tag }} ({{count}})</a></li>
           {{/each}}
       </script>
       <script id="template-author-list-link" type="text/x-handlebars-template">
